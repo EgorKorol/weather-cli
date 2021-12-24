@@ -1,0 +1,34 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "type": "module",
+  "scripts": {
+    "start": "weather.js"
+  },
+  "bin": {
+    "weather": "weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EgorKorol/weather-cli.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "weather"
+  ],
+  "author": "Egor Korol <egor.korol@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgorKorol/weather-cli/issues"
+  },
+  "homepage": "https://github.com/EgorKorol/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1",
+    "yargs": "^17.3.0"
+  }
+}
